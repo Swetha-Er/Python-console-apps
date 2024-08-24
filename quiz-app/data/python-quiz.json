@@ -1,0 +1,47 @@
+{
+    "name" : "Python quiz",
+    "description" : "Basic Python Related Questions",
+    "quizId" : 1,
+    "totalScore" : 50,
+    "questions":[
+        {
+            "qId": 1,
+            "type" : "mcq",
+            "question": "Python is a ___________ Language?",
+            "options": ["general-purpose", "compiled", "markup", "assembly"],
+            "answer": "general-purpose",
+            "score": 10
+        },
+        {
+            "qId": 2,
+            "type" : "mcq",
+            "question": "Which of the following data types is immutable in Python?",
+            "options": ["list", "dictionary", "tuple", "set"],
+            "answer": "tuple",
+            "score": 10
+        },
+        {
+            "qId": 3,
+            "type" : "mcq",
+            "question": "The function `len()` returns the number of ___________?",
+            "options": ["bytes", "characters", "items", "lines"],
+            "answer": "items",
+            "score": 10
+        },
+        {
+            "qId": 4,
+            "type" : "t/f",
+            "question": "Python supports object-oriented programming?",
+            "answer": true,
+            "score": 10
+        },
+        {
+            "qId": 5,
+            "type" : "t/f",
+            "question": "Is Python a strongly typed language?",
+            "answer": false,
+            "score": 10
+        }
+    ]
+    
+}
